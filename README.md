@@ -1,2 +1,2 @@
-# Trivia-App
-An API based Trivia Question app made using pure HTML, CSS &amp; Javascript
+# TriviaApp
+An API based TriviaApp written in pure HTML, CSS &amp; Javascript 
