@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 async function loadQuestionAPI() {
-    const questions = await fetch("https://opentdb.com/api.php?amount=10&category=18&type=multiple")
+    const questions = await fetch("https://opentdb.com/api.php?amount=10&category=18&type=multiple&difficulty=easy")
     const questionsJson = await questions.json();
     return questionsJson;
 }
